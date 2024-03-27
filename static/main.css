@@ -1,0 +1,134 @@
+body{
+    display: block;
+    overflow-x: hidden;
+
+
+}
+
+nav{
+    background-color: lightblue;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+}
+
+nav ul li a{
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px; 
+}
+
+nav ul li a:hover{
+    color: #683aa4;
+}
+
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ 
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button{
+    max-width: 50%;
+    border-radius: 50px !important;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    
+}
+
+#hero .col{
+    padding-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img{
+    max-width: 130%; 
+    width: 130%;
+}
+
+/* Styling for the cards */
+#hero .card{
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+}
+
+ #hero .cards .card{
+    width: 18rem;
+}
+
+#hero .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.fa-solid.fa-laptop-code {
+    font-size: 2rem; 
+    
+  }
+
+ 
+.circular-frame {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 100px; 
+    height: 100px; 
+
+  }
+
+.circular-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+.fa-solid.fa-book {
+    font-size: 2rem;
+
+}
+
+.fa-regular.fa-folder-open {
+    font-size: 2rem; 
+}
+  
+
+.links {
+    text-align: center; 
+    margin-top: 10px;
+    padding-top: 25px; 
+}
+
+.links a {
+    margin: 0 10px; 
+    font-size: 2rem; 
+    color: inherit;
+  }
